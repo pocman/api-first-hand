@@ -5,7 +5,7 @@
 [![Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zalando/api-first-hand?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Compatibility
-
+ap
 - Play 2.5.4+
 - Swagger (OpenAPI) 2.0
 
@@ -49,7 +49,7 @@ The template project contains following:
     * `generated_controllers/example.yaml.scala` - a dummy implementation of the example controller. Will be (re)generated if deleted
     * `security/example.yaml.scala` - a marshaller for OAuth2 tokens. Will not be regenerated until 
         a) deleted or renamed
-        b) explicitly requested by issuing a `apiFirstSecurity` command 
+        b) explicitly requested by issuing a `playScalaSecurity` command 
 
 
 ## Welcome to Api-First-Hand
@@ -86,7 +86,7 @@ Manual generation and compilation of:
 is supported in the case if
 
 a) No security extractor or unmarshaller with the same name already exists
-b) The developer issues `apiFirstSecurity` or `apiFirstMarshallers` sbt command 
+b) The developer issues `playScalaSecurity` or `playScalaMarshallers` sbt command 
 
 ## Run Your Application
 
